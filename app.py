@@ -30,9 +30,9 @@ for linha in pagina_clientes.iter_rows(min_row=2):
             sleep(10)
             seta = pyautogui.locateCenterOnScreen('seta.png')
             sleep(5)
-            pyautogui.click(seta[0], seta[1])
+            pyautogui.click(seta[0],seta[1])
             sleep(5)
-            pyautogui.hotkey('ctrl', 'w')
+            pyautogui.hotkey('ctrl','w')
             sleep(5)
         except:
             print(f'Não foi possível enviar mensagem para {nome}')
